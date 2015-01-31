@@ -86,5 +86,9 @@ module Norikra
     def logs
       @client.call(:logs)
     end
+
+    def statistics
+      @client.call(:statistics)
+    end
   end
 end
